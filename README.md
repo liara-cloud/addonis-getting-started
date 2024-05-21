@@ -1,31 +1,18 @@
-# Adonis fullstack application
+# Adonis Getting Started
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
-
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
-
-## Setup
-
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick
+To get started with AddonisJS, do following steps:
+```
+git clone https://github.com/liara-cloud/addonis-getting-started.git
+```
+```
+cd addonis-getting-started
+```
+- create NodeJS app on [Liara](https://Liara.ir)
+- update ENVs in `.env.example` file
+- set ENVs in your app on Liara
+```
+liara deploy --port 3000 --platform node
 ```
 
-or manually clone the repo and then run `npm install`.
-
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+## More Docs
+- [Liara](https://docs.liara.ir)
